@@ -656,7 +656,7 @@
           },
           "3xl": {
             "$type": "fontSizes",
-            "$value": "40px"
+            "$value": "42px"
           },
           "4xl": {
             "$type": "fontSizes",
@@ -670,15 +670,15 @@
           },
           "sm": {
             "$type": "lineHeights",
-            "$value": "125%"
+            "$value": "115%"
           },
           "md": {
             "$type": "lineHeights",
-            "$value": "150%"
+            "$value": "125%"
           },
           "lg": {
             "$type": "lineHeights",
-            "$value": "200%"
+            "$value": "150%"
           }
         },
         "font-weight": {
@@ -797,7 +797,7 @@
           },
           "line-height": {
             "$type": "lineHeights",
-            "$value": "{nora.typography.line-height.sm}"
+            "$value": "{nora.typography.line-height.md}"
           }
         },
         "large-vw": {
@@ -807,7 +807,7 @@
           },
           "line-height": {
             "$type": "lineHeights",
-            "$value": "{nora.typography.line-height.md}"
+            "$value": "{nora.typography.line-height.lg}"
           }
         },
         "font-weight": {
@@ -1458,9 +1458,17 @@
           "$type": "lineHeights",
           "$value": "{nora.typography.line-height.sm}"
         },
-        "font-size": {
-          "$type": "fontSizes",
-          "$value": "{nora.typography.font-size.3xl}"
+        "small-vw": {
+          "font-size": {
+            "$type": "fontSizes",
+            "$value": "{nora.typography.font-size.2xl}"
+          }
+        },
+        "large-vw": {
+          "font-size": {
+            "$type": "fontSizes",
+            "$value": "{nora.typography.font-size.3xl}"
+          }
         }
       },
       "heading-2": {
@@ -1480,9 +1488,17 @@
           "$type": "lineHeights",
           "$value": "{nora.typography.line-height.sm}"
         },
-        "font-size": {
-          "$type": "fontSizes",
-          "$value": "{nora.typography.font-size.2xl}"
+        "small-vw": {
+          "font-size": {
+            "$type": "fontSizes",
+            "$value": "{nora.typography.font-size.xl}"
+          }
+        },
+        "large-vw": {
+          "font-size": {
+            "$type": "fontSizes",
+            "$value": "{nora.typography.font-size.2xl}"
+          }
         }
       },
       "heading-3": {
@@ -1502,9 +1518,17 @@
           "$type": "lineHeights",
           "$value": "{nora.typography.line-height.sm}"
         },
-        "font-size": {
-          "$type": "fontSizes",
-          "$value": "{nora.typography.font-size.xl}"
+        "small-vw": {
+          "font-size": {
+            "$type": "fontSizes",
+            "$value": "{nora.typography.font-size.lg}"
+          }
+        },
+        "large-vw": {
+          "font-size": {
+            "$type": "fontSizes",
+            "$value": "{nora.typography.font-size.xl}"
+          }
         }
       },
       "heading-4": {
@@ -1522,11 +1546,19 @@
         },
         "line-height": {
           "$type": "lineHeights",
-          "$value": "{nora.typography.line-height.md}"
+          "$value": "{nora.typography.line-height.sm}"
         },
-        "font-size": {
-          "$type": "fontSizes",
-          "$value": "{nora.typography.font-size.lg}"
+        "small-vw": {
+          "font-size": {
+            "$type": "fontSizes",
+            "$value": "{nora.typography.font-size.md}"
+          }
+        },
+        "large-vw": {
+          "font-size": {
+            "$type": "fontSizes",
+            "$value": "{nora.typography.font-size.lg}"
+          }
         }
       },
       "heading-5": {
@@ -1544,11 +1576,19 @@
         },
         "line-height": {
           "$type": "lineHeights",
-          "$value": "{nora.typography.line-height.md}"
+          "$value": "{nora.typography.line-height.sm}"
         },
-        "font-size": {
-          "$type": "fontSizes",
-          "$value": "{nora.typography.font-size.md}"
+        "small-vw": {
+          "font-size": {
+            "$type": "fontSizes",
+            "$value": "{nora.typography.font-size.sm}"
+          }
+        },
+        "large-vw": {
+          "font-size": {
+            "$type": "fontSizes",
+            "$value": "{nora.typography.font-size.md}"
+          }
         }
       },
       "heading-6": {
@@ -1566,11 +1606,19 @@
         },
         "line-height": {
           "$type": "lineHeights",
-          "$value": "{nora.typography.line-height.md}"
+          "$value": "{nora.typography.line-height.sm}"
         },
-        "font-size": {
-          "$type": "fontSizes",
-          "$value": "{nora.typography.font-size.sm}"
+        "small-vw": {
+          "font-size": {
+            "$type": "fontSizes",
+            "$value": "{nora.typography.font-size.xs}"
+          }
+        },
+        "large-vw": {
+          "font-size": {
+            "$type": "fontSizes",
+            "$value": "{nora.typography.font-size.sm}"
+          }
         }
       }
     }
