@@ -630,17 +630,21 @@
       },
       "typography": {
         "font-size": {
-          "sm": {
+          "xs": {
             "$type": "fontSizes",
-            "$value": "14px"
+            "$value": "15px"
           },
-          "md": {
+          "sm": {
             "$type": "fontSizes",
             "$value": "16px"
           },
+          "md": {
+            "$type": "fontSizes",
+            "$value": "17px"
+          },
           "lg": {
             "$type": "fontSizes",
-            "$value": "20px"
+            "$value": "19px"
           },
           "xl": {
             "$type": "fontSizes",
@@ -786,17 +790,29 @@
           "$type": "fontFamilies",
           "$value": "{nora.typography.font-family.secondary}"
         },
-        "font-size": {
-          "$type": "fontSizes",
-          "$value": "{nora.typography.font-size.md}"
+        "small-vw": {
+          "font-size": {
+            "$type": "fontSizes",
+            "$value": "{nora.typography.font-size.md}"
+          },
+          "line-height": {
+            "$type": "lineHeights",
+            "$value": "{nora.typography.line-height.sm}"
+          }
+        },
+        "large-vw": {
+          "font-size": {
+            "$type": "fontSizes",
+            "$value": "{nora.typography.font-size.lg}"
+          },
+          "line-height": {
+            "$type": "lineHeights",
+            "$value": "{nora.typography.line-height.md}"
+          }
         },
         "font-weight": {
           "$type": "fontWeights",
           "$value": "{nora.typography.font-weight.normal}"
-        },
-        "line-height": {
-          "$type": "lineHeights",
-          "$value": "{nora.typography.line-height.md}"
         },
         "inverse": {
           "background-color": {
@@ -1210,11 +1226,11 @@
       "breadcrumb-nav": {
         "line-height": {
           "$type": "lineHeights",
-          "$value": "{nora.document.line-height}"
+          "$value": "{nora.document.small-vw.line-height}"
         },
         "font-size": {
           "$type": "fontSizes",
-          "$value": "{nora.document.font-size}"
+          "$value": "{nora.document.small-vw.font-size}"
         },
         "link": {
           "icon": {
@@ -1320,7 +1336,7 @@
       "breadcrumb-nav": {
         "line-height": {
           "$type": "lineHeights",
-          "$value": "{nora.document.line-height}"
+          "$value": "{nora.document.small-vw.line-height}"
         },
         "min-block-size": {
           "$type": "sizing",
@@ -1418,7 +1434,7 @@
         },
         "font-size": {
           "$type": "fontSizes",
-          "$value": "{nora.document.font-size}"
+          "$value": "{nora.document.small-vw.font-size}"
         }
       }
     }
@@ -1592,17 +1608,45 @@
           "$type": "fontFamilies",
           "$value": "{nora.document.font-family}"
         },
-        "font-size": {
-          "$type": "fontSizes",
-          "$value": "{nora.document.font-size}"
+        "small-vw": {
+          "font-size": {
+            "$type": "fontSizes",
+            "$value": "{nora.document.small-vw.font-size}"
+          },
+          "line-height": {
+            "$type": "lineHeights",
+            "$value": "{nora.document.small-vw.line-height}"
+          },
+          "paragraph-spacing": {
+            "$type": "paragraphSpacing",
+            "$value": "{utrecht.paragraph.small-vw.margin-block-end}"
+          },
+          "margin-block-end": {
+            "$type": "spacing",
+            "$value": "{nora.space.block.snail}"
+          }
+        },
+        "large-vw": {
+          "font-size": {
+            "$type": "fontSizes",
+            "$value": "{nora.document.large-vw.font-size}"
+          },
+          "line-height": {
+            "$type": "lineHeights",
+            "$value": "{nora.document.large-vw.line-height}"
+          },
+          "paragraph-spacing": {
+            "$type": "paragraphSpacing",
+            "$value": "{utrecht.paragraph.large-vw.margin-block-end}"
+          },
+          "margin-block-end": {
+            "$type": "spacing",
+            "$value": "{nora.space.block.mouse}"
+          }
         },
         "font-weight": {
           "$type": "fontWeights",
           "$value": "{nora.document.font-weight}"
-        },
-        "line-height": {
-          "$type": "lineHeights",
-          "$value": "{nora.document.line-height}"
         },
         "lead": {
           "color": {
@@ -1619,7 +1663,7 @@
           },
           "line-height": {
             "$type": "lineHeights",
-            "$value": "{nora.document.line-height}"
+            "$value": "{nora.document.small-vw.line-height}"
           }
         },
         "small": {
@@ -1637,7 +1681,7 @@
           },
           "line-height": {
             "$type": "lineHeights",
-            "$value": "{nora.document.line-height}"
+            "$value": "{nora.document.small-vw.line-height}"
           }
         }
       }
