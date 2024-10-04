@@ -1439,6 +1439,156 @@
       }
     }
   },
+  "components/icon-only-button": {
+    "todo": {
+      "icon-only-button": {
+        "padding-block-end": {
+          "$type": "spacing",
+          "$value": "{nora.space.block.ant}"
+        },
+        "padding-block-start": {
+          "$type": "spacing",
+          "$value": "{nora.space.block.ant}"
+        },
+        "padding-inline-end": {
+          "$type": "spacing",
+          "$value": "{nora.space.inline.ant}"
+        },
+        "padding-inline-start": {
+          "$type": "spacing",
+          "$value": "{nora.space.inline.ant}"
+        },
+        "border-radius": {
+          "$type": "borderRadius",
+          "$value": "{nora.border-radius.sm}"
+        },
+        "icon-size": {
+          "$type": "sizing",
+          "$value": "{nora.size.icon.lg}"
+        }
+      }
+    }
+  },
+  "components/icon-only-button-large-vw": {
+    "todo": {
+      "icon-only-button": {
+        "padding-block-end": {
+          "$type": "spacing",
+          "$value": "{nora.space.block.ant}"
+        },
+        "padding-block-start": {
+          "$type": "spacing",
+          "$value": "{nora.space.block.ant}"
+        },
+        "padding-inline-end": {
+          "$type": "spacing",
+          "$value": "{nora.space.inline.ant}"
+        },
+        "padding-inline-start": {
+          "$type": "spacing",
+          "$value": "{nora.space.inline.ant}"
+        },
+        "border-radius": {
+          "$type": "borderRadius",
+          "$value": "{nora.border-radius.sm}"
+        },
+        "icon-size": {
+          "$type": "sizing",
+          "$value": "40px"
+        }
+      }
+    }
+  },
+  "components/paragraph": {
+    "utrecht": {
+      "paragraph": {
+        "color": {
+          "$type": "color",
+          "$value": "{nora.document.color}"
+        },
+        "font-family": {
+          "$type": "fontFamilies",
+          "$value": "{nora.document.font-family}"
+        },
+        "small-vw": {
+          "font-size": {
+            "$type": "fontSizes",
+            "$value": "{nora.document.small-vw.font-size}"
+          },
+          "line-height": {
+            "$type": "lineHeights",
+            "$value": "{nora.document.small-vw.line-height}"
+          },
+          "paragraph-spacing": {
+            "$type": "paragraphSpacing",
+            "$value": "{utrecht.paragraph.small-vw.margin-block-end}"
+          },
+          "margin-block-end": {
+            "$type": "spacing",
+            "$value": "{nora.space.block.snail}"
+          }
+        },
+        "large-vw": {
+          "font-size": {
+            "$type": "fontSizes",
+            "$value": "{nora.document.large-vw.font-size}"
+          },
+          "line-height": {
+            "$type": "lineHeights",
+            "$value": "{nora.document.large-vw.line-height}"
+          },
+          "paragraph-spacing": {
+            "$type": "paragraphSpacing",
+            "$value": "{utrecht.paragraph.large-vw.margin-block-end}"
+          },
+          "margin-block-end": {
+            "$type": "spacing",
+            "$value": "{nora.space.block.mouse}"
+          }
+        },
+        "font-weight": {
+          "$type": "fontWeights",
+          "$value": "{nora.document.font-weight}"
+        },
+        "lead": {
+          "color": {
+            "$type": "color",
+            "$value": "{nora.document.color}"
+          },
+          "font-size": {
+            "$type": "fontSizes",
+            "$value": "{nora.typography.font-size.lg}"
+          },
+          "font-weight": {
+            "$type": "fontWeights",
+            "$value": "{nora.document.font-weight}"
+          },
+          "line-height": {
+            "$type": "lineHeights",
+            "$value": "{nora.document.small-vw.line-height}"
+          }
+        },
+        "small": {
+          "color": {
+            "$type": "color",
+            "$value": "{nora.document.color}"
+          },
+          "font-size": {
+            "$type": "fontSizes",
+            "$value": "{nora.typography.font-size.sm}"
+          },
+          "font-weight": {
+            "$type": "fontWeights",
+            "$value": "{nora.document.font-weight}"
+          },
+          "line-height": {
+            "$type": "lineHeights",
+            "$value": "{nora.document.small-vw.line-height}"
+          }
+        }
+      }
+    }
+  },
   "components/heading": {
     "utrecht": {
       "heading-1": {
@@ -1623,127 +1773,16 @@
       }
     }
   },
-  "components/icon-only-button": {
-    "todo": {
-      "icon-only-button": {
-        "padding-block-end": {
-          "$type": "spacing",
-          "$value": "{nora.space.block.snail}"
-        },
-        "padding-block-start": {
-          "$type": "spacing",
-          "$value": "{nora.space.block.snail}"
-        },
-        "padding-inline-end": {
-          "$type": "spacing",
-          "$value": "{nora.space.inline.snail}"
-        },
-        "padding-inline-start": {
-          "$type": "spacing",
-          "$value": "{nora.space.inline.snail}"
-        }
-      }
-    }
-  },
-  "components/paragraph": {
-    "utrecht": {
-      "paragraph": {
-        "color": {
-          "$type": "color",
-          "$value": "{nora.document.color}"
-        },
-        "font-family": {
-          "$type": "fontFamilies",
-          "$value": "{nora.document.font-family}"
-        },
-        "small-vw": {
-          "font-size": {
-            "$type": "fontSizes",
-            "$value": "{nora.document.small-vw.font-size}"
-          },
-          "line-height": {
-            "$type": "lineHeights",
-            "$value": "{nora.document.small-vw.line-height}"
-          },
-          "paragraph-spacing": {
-            "$type": "paragraphSpacing",
-            "$value": "{utrecht.paragraph.small-vw.margin-block-end}"
-          },
-          "margin-block-end": {
-            "$type": "spacing",
-            "$value": "{nora.space.block.snail}"
-          }
-        },
-        "large-vw": {
-          "font-size": {
-            "$type": "fontSizes",
-            "$value": "{nora.document.large-vw.font-size}"
-          },
-          "line-height": {
-            "$type": "lineHeights",
-            "$value": "{nora.document.large-vw.line-height}"
-          },
-          "paragraph-spacing": {
-            "$type": "paragraphSpacing",
-            "$value": "{utrecht.paragraph.large-vw.margin-block-end}"
-          },
-          "margin-block-end": {
-            "$type": "spacing",
-            "$value": "{nora.space.block.mouse}"
-          }
-        },
-        "font-weight": {
-          "$type": "fontWeights",
-          "$value": "{nora.document.font-weight}"
-        },
-        "lead": {
-          "color": {
-            "$type": "color",
-            "$value": "{nora.document.color}"
-          },
-          "font-size": {
-            "$type": "fontSizes",
-            "$value": "{nora.typography.font-size.lg}"
-          },
-          "font-weight": {
-            "$type": "fontWeights",
-            "$value": "{nora.document.font-weight}"
-          },
-          "line-height": {
-            "$type": "lineHeights",
-            "$value": "{nora.document.small-vw.line-height}"
-          }
-        },
-        "small": {
-          "color": {
-            "$type": "color",
-            "$value": "{nora.document.color}"
-          },
-          "font-size": {
-            "$type": "fontSizes",
-            "$value": "{nora.typography.font-size.sm}"
-          },
-          "font-weight": {
-            "$type": "fontWeights",
-            "$value": "{nora.document.font-weight}"
-          },
-          "line-height": {
-            "$type": "lineHeights",
-            "$value": "{nora.document.small-vw.line-height}"
-          }
-        }
-      }
-    }
-  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
       "brand",
       "common",
       "components/breadcrumb-nav",
-      "components/heading",
       "components/icon-only-button",
-      "components/paragraph"
+      "components/icon-only-button-large-vw",
+      "components/paragraph",
+      "components/heading"
     ]
   }
 }
