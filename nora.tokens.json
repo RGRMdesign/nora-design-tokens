@@ -821,7 +821,7 @@
           },
           "color": {
             "$type": "color",
-            "$value": "{nora.color.white}"
+            "$value": "{nora.color.blue.50}"
           }
         },
         "subtle": {
@@ -1465,36 +1465,148 @@
         "icon-size": {
           "$type": "sizing",
           "$value": "{nora.size.icon.lg}"
-        }
-      }
-    }
-  },
-  "components/icon-only-button-large-vw": {
-    "todo": {
-      "icon-only-button": {
-        "padding-block-end": {
-          "$type": "spacing",
-          "$value": "{nora.space.block.ant}"
         },
-        "padding-block-start": {
-          "$type": "spacing",
-          "$value": "{nora.space.block.ant}"
+        "background-color": {
+          "$type": "color",
+          "$value": "transparent"
         },
-        "padding-inline-end": {
-          "$type": "spacing",
-          "$value": "{nora.space.inline.ant}"
+        "border-color": {
+          "$type": "color",
+          "$value": "transparent"
         },
-        "padding-inline-start": {
-          "$type": "spacing",
-          "$value": "{nora.space.inline.ant}"
+        "color": {
+          "$type": "color",
+          "$value": "{nora.document.color}"
         },
-        "border-radius": {
-          "$type": "borderRadius",
-          "$value": "{nora.border-radius.sm}"
+        "hover": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{nora.color.gray.50}"
+          },
+          "border-color": {
+            "$type": "color",
+            "$value": "transparent"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{nora.color.blue.900}"
+          }
         },
-        "icon-size": {
-          "$type": "sizing",
-          "$value": "40px"
+        "disabled": {
+          "background-color": {
+            "$type": "color",
+            "$value": "transparent"
+          },
+          "border-color": {
+            "$type": "color",
+            "$value": "transparent"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{nora.color.gray.500}"
+          }
+        },
+        "focus": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{nora.focus.background-color}"
+          },
+          "border-color": {
+            "$type": "color",
+            "$value": "transparent"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{nora.focus.color}"
+          }
+        },
+        "active": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{nora.color.blue.100}"
+          },
+          "border-color": {
+            "$type": "color",
+            "$value": "transparent"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{nora.color.black}"
+          }
+        },
+        "border-width": {
+          "$type": "borderWidth",
+          "$value": "{nora.border-width.sm}"
+        },
+        "inverted": {
+          "background-color": {
+            "$type": "color",
+            "$value": "transparent"
+          },
+          "border-color": {
+            "$type": "color",
+            "$value": "transparent"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{nora.document.inverse.color}"
+          },
+          "hover": {
+            "background-color": {
+              "$type": "color",
+              "$value": "{nora.color.gray.50}"
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "transparent"
+            },
+            "color": {
+              "$type": "color",
+              "$value": "{nora.color.blue.900}"
+            }
+          },
+          "disabled": {
+            "background-color": {
+              "$type": "color",
+              "$value": "transparent"
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "transparent"
+            },
+            "color": {
+              "$type": "color",
+              "$value": "{nora.color.gray.500}"
+            }
+          },
+          "focus": {
+            "background-color": {
+              "$type": "color",
+              "$value": "{nora.focus.background-color}"
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "transparent"
+            },
+            "color": {
+              "$type": "color",
+              "$value": "{nora.focus.color}"
+            }
+          },
+          "active": {
+            "background-color": {
+              "$type": "color",
+              "$value": "{nora.color.blue.100}"
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "transparent"
+            },
+            "color": {
+              "$type": "color",
+              "$value": "{nora.color.black}"
+            }
+          }
         }
       }
     }
@@ -1773,6 +1885,108 @@
       }
     }
   },
+  "drafts/navigation-bar": {
+    "nora": {
+      "navigation-bar": {
+        "padding-inline-start": {
+          "$type": "spacing",
+          "$value": "20px"
+        },
+        "padding-block-start": {
+          "$type": "spacing",
+          "$value": "10px"
+        },
+        "padding-block-end": {
+          "$type": "spacing",
+          "$value": "10px"
+        },
+        "padding-inline-end": {
+          "$type": "spacing",
+          "$value": "20px"
+        },
+        "background-color": {
+          "$type": "color",
+          "$value": "{nora.color.blue.600}"
+        },
+        "navigation-item": {
+          "background-color": {
+            "$type": "color",
+            "$value": "transparent"
+          },
+          "border-color": {
+            "$type": "color",
+            "$value": "transparent"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{nora.color.white}"
+          },
+          "current": {
+            "background-color": {
+              "$type": "color",
+              "$value": "{nora.color.blue.700}"
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "transparent"
+            },
+            "color": {
+              "$type": "color",
+              "$value": "{nora.color.white}"
+            }
+          },
+          "border-width": {
+            "$type": "borderWidth",
+            "$value": "{nora.border-width.sm}"
+          },
+          "border-radius": {
+            "$type": "borderRadius",
+            "$value": "{nora.border-radius.sm}"
+          },
+          "hover": {
+            "background-color": {
+              "$type": "color",
+              "$value": "{nora.color.blue.300}"
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "transparent"
+            },
+            "color": {
+              "$type": "color",
+              "$value": "{nora.color.blue.950}"
+            }
+          },
+          "active": {
+            "background-color": {
+              "$type": "color",
+              "$value": "{nora.color.blue.400}"
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "transparent"
+            },
+            "color": {
+              "$type": "color",
+              "$value": "{nora.color.blue.950}"
+            }
+          }
+        },
+        "utilities-container": {
+          "column-gap": {
+            "$type": "spacing",
+            "$value": "{nora.space.block.rat}"
+          }
+        },
+        "navigation-container": {
+          "column-gap": {
+            "$type": "spacing",
+            "$value": "{nora.space.block.rat}"
+          }
+        }
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
@@ -1780,9 +1994,9 @@
       "common",
       "components/breadcrumb-nav",
       "components/icon-only-button",
-      "components/icon-only-button-large-vw",
       "components/paragraph",
-      "components/heading"
+      "components/heading",
+      "drafts/navigation-bar"
     ]
   }
 }
