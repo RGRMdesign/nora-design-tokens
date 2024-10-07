@@ -313,6 +313,10 @@
             "$type": "spacing",
             "$value": "8px"
           },
+          "spider": {
+            "$type": "spacing",
+            "$value": "10px"
+          },
           "snail": {
             "$type": "spacing",
             "$value": "12px"
@@ -354,6 +358,10 @@
           "beetle": {
             "$type": "spacing",
             "$value": "8px"
+          },
+          "spider": {
+            "$type": "spacing",
+            "$value": "10px"
           },
           "snail": {
             "$type": "spacing",
@@ -400,6 +408,11 @@
             "$value": "4px",
             "$description": "0.5ch"
           },
+          "spider": {
+            "$type": "spacing",
+            "$value": "5px",
+            "$description": "0.625ch"
+          },
           "snail": {
             "$type": "spacing",
             "$value": "6px",
@@ -443,6 +456,10 @@
           "beetle": {
             "$type": "spacing",
             "$value": "4px"
+          },
+          "spider": {
+            "$type": "spacing",
+            "$value": "6px"
           },
           "snail": {
             "$type": "spacing",
@@ -501,6 +518,10 @@
           "beetle": {
             "$type": "spacing",
             "$value": "4px"
+          },
+          "spider": {
+            "$type": "spacing",
+            "$value": "6px"
           },
           "snail": {
             "$type": "spacing",
@@ -1886,19 +1907,19 @@
       "navigation-bar": {
         "padding-inline-start": {
           "$type": "spacing",
-          "$value": "20px"
+          "$value": "{nora.space.inline.rat}"
         },
         "padding-block-start": {
           "$type": "spacing",
-          "$value": "10px"
+          "$value": "{nora.space.block.spider}"
         },
         "padding-block-end": {
           "$type": "spacing",
-          "$value": "10px"
+          "$value": "{nora.space.block.spider}"
         },
         "padding-inline-end": {
           "$type": "spacing",
-          "$value": "20px"
+          "$value": "{nora.space.inline.rat}"
         },
         "background-color": {
           "$type": "color",
@@ -1946,6 +1967,10 @@
               "$type": "color",
               "$value": "{nora.color.blue.950}"
             }
+          },
+          "font-size": {
+            "$type": "fontSizes",
+            "$value": "{nora.typography.font-size.md}"
           }
         },
         "utilities-container": {
@@ -1958,6 +1983,88 @@
           "column-gap": {
             "$type": "spacing",
             "$value": "{nora.space.block.rat}"
+          }
+        },
+        "search-field": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{nora.color.blue.700}"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{nora.color.white}"
+          },
+          "font-family": {
+            "$type": "fontFamilies",
+            "$value": "{nora.document.font-family}"
+          },
+          "font-size": {
+            "$type": "fontSizes",
+            "$value": "{nora.navigation-bar.navigation-item.font-size}"
+          },
+          "border-top-left-radius": {
+            "$type": "borderRadius",
+            "$value": "{nora.border-radius.sm}"
+          },
+          "border-top-right-radius": {
+            "$type": "borderRadius",
+            "$value": "0px"
+          },
+          "border-bottom-right-radius": {
+            "$type": "borderRadius",
+            "$value": "0px"
+          },
+          "border-bottom-left-radius": {
+            "$type": "borderRadius",
+            "$value": "{nora.border-radius.sm}"
+          }
+        },
+        "search-form-button": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{nora.color.blue.700}"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{nora.color.white}"
+          },
+          "padding-inline-start": {
+            "$type": "spacing",
+            "$value": "{nora.space.inline.beetle}"
+          },
+          "padding-inline-end": {
+            "$type": "spacing",
+            "$value": "{nora.space.inline.beetle}"
+          },
+          "padding-block-start": {
+            "$type": "spacing",
+            "$value": "{nora.space.block.beetle}"
+          },
+          "padding-block-end": {
+            "$type": "spacing",
+            "$value": "{nora.space.block.beetle}"
+          },
+          "border-top-left-radius": {
+            "$type": "borderRadius",
+            "$value": "0px"
+          },
+          "border-top-right-radius": {
+            "$type": "borderRadius",
+            "$value": "{nora.border-radius.sm}"
+          },
+          "border-bottom-right-radius": {
+            "$type": "borderRadius",
+            "$value": "{nora.border-radius.sm}"
+          },
+          "border-bottom-left-radius": {
+            "$type": "borderRadius",
+            "$value": "0px"
+          }
+        },
+        "search-form": {
+          "column-gap": {
+            "$type": "dimension",
+            "$value": "0px"
           }
         }
       }
