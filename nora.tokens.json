@@ -688,17 +688,17 @@
           },
           "bold": {
             "$type": "fontWeights",
-            "$value": "Bold"
+            "$value": "SemiBold"
           }
         },
         "font-family": {
           "primary": {
             "$type": "fontFamilies",
-            "$value": "RijksoverheidSansText, sans-serif"
+            "$value": "Source Sans 3, sans-serif"
           },
           "secondary": {
             "$type": "fontFamilies",
-            "$value": "RijksoverheidSansHeading, sans-serif"
+            "$value": "{nora.typography.font-family.primary}"
           },
           "code": {
             "$type": "fontFamilies",
@@ -788,7 +788,7 @@
         },
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{nora.typography.font-family.secondary}"
+          "$value": "{nora.typography.font-family.primary}"
         },
         "small-vw": {
           "font-size": {
@@ -952,7 +952,7 @@
         },
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{nora.typography.font-family.secondary}"
+          "$value": "{nora.typography.font-family.primary}"
         },
         "font-size": {
           "$type": "fontSizes",
