@@ -1913,10 +1913,6 @@
             "$type": "color",
             "$value": "transparent"
           },
-          "border-color": {
-            "$type": "color",
-            "$value": "transparent"
-          },
           "color": {
             "$type": "color",
             "$value": "{nora.color.white}"
@@ -1926,18 +1922,10 @@
               "$type": "color",
               "$value": "{nora.color.blue.700}"
             },
-            "border-color": {
-              "$type": "color",
-              "$value": "transparent"
-            },
             "color": {
               "$type": "color",
               "$value": "{nora.color.white}"
             }
-          },
-          "border-width": {
-            "$type": "borderWidth",
-            "$value": "{nora.border-width.sm}"
           },
           "border-radius": {
             "$type": "borderRadius",
@@ -1948,10 +1936,6 @@
               "$type": "color",
               "$value": "{nora.color.blue.300}"
             },
-            "border-color": {
-              "$type": "color",
-              "$value": "transparent"
-            },
             "color": {
               "$type": "color",
               "$value": "{nora.color.blue.950}"
@@ -1961,10 +1945,6 @@
             "background-color": {
               "$type": "color",
               "$value": "{nora.color.blue.400}"
-            },
-            "border-color": {
-              "$type": "color",
-              "$value": "transparent"
             },
             "color": {
               "$type": "color",
