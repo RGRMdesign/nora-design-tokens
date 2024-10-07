@@ -696,10 +696,6 @@
             "$type": "fontFamilies",
             "$value": "Source Sans 3, sans-serif"
           },
-          "secondary": {
-            "$type": "fontFamilies",
-            "$value": "{nora.typography.font-family.primary}"
-          },
           "code": {
             "$type": "fontFamilies",
             "$value": "Fira Code, Tahoma, Verdana, sans-serif"
