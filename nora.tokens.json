@@ -271,7 +271,7 @@
           },
           "700": {
             "$type": "color",
-            "$value": "#0066A4"
+            "$value": "#00588D"
           },
           "800": {
             "$type": "color",
@@ -822,7 +822,7 @@
           },
           "line-height": {
             "$type": "lineHeights",
-            "$value": "{nora.typography.line-height.md}"
+            "$value": "{nora.typography.line-height.lg}"
           }
         },
         "large-vw": {
@@ -1473,7 +1473,7 @@
           "hover": {
             "background-color": {
               "$type": "color",
-              "$value": "{nora.color.blue.700}"
+              "$value": "{nora.color.blue.800}"
             },
             "border-color": {
               "$type": "color",
@@ -1515,7 +1515,7 @@
           "active": {
             "background-color": {
               "$type": "color",
-              "$value": "{nora.color.blue.800}"
+              "$value": "{nora.color.blue.900}"
             },
             "border-color": {
               "$type": "color",
@@ -1552,11 +1552,7 @@
           },
           "paragraph-spacing": {
             "$type": "paragraphSpacing",
-            "$value": "{utrecht.paragraph.small-vw.margin-block-end}"
-          },
-          "margin-block-end": {
-            "$type": "spacing",
-            "$value": "{nora.space.block.snail}"
+            "$value": "{nora.space.relation.besties}"
           }
         },
         "large-vw": {
@@ -1570,11 +1566,7 @@
           },
           "paragraph-spacing": {
             "$type": "paragraphSpacing",
-            "$value": "{utrecht.paragraph.large-vw.margin-block-end}"
-          },
-          "margin-block-end": {
-            "$type": "spacing",
-            "$value": "{nora.space.block.mouse}"
+            "$value": "{nora.space.relation.vrienden}"
           }
         },
         "font-weight": {
@@ -1901,21 +1893,21 @@
           "hover": {
             "background-color": {
               "$type": "color",
-              "$value": "{nora.color.blue.400}"
+              "$value": "{nora.color.blue.800}"
             },
             "color": {
               "$type": "color",
-              "$value": "{nora.color.blue.950}"
+              "$value": "{nora.color.blue.50}"
             }
           },
           "active": {
             "background-color": {
               "$type": "color",
-              "$value": "{nora.color.blue.300}"
+              "$value": "{nora.color.blue.900}"
             },
             "color": {
               "$type": "color",
-              "$value": "{nora.color.blue.950}"
+              "$value": "{nora.color.blue.50}"
             }
           },
           "font-family": {
@@ -1928,11 +1920,11 @@
           },
           "padding-inline-start": {
             "$type": "spacing",
-            "$value": "{nora.space.inline.termite}"
+            "$value": "{nora.space.inline.beetle}"
           },
           "padding-inline-end": {
             "$type": "spacing",
-            "$value": "{nora.space.inline.termite}"
+            "$value": "{nora.space.inline.beetle}"
           },
           "padding-block-start": {
             "$type": "spacing",
@@ -1945,17 +1937,27 @@
           "focus": {
             "background-color": {
               "$type": "color",
-              "$value": "{nora.color.blue.400}"
+              "$value": "{nora.navigation-bar.navigation-item.hover.background-color}"
             },
             "color": {
               "$type": "color",
-              "$value": "{nora.color.blue.950}"
+              "$value": "{nora.navigation-bar.navigation-item.hover.color}"
             }
           },
           "line-height": {
             "$type": "lineHeights",
             "$value": "141.2%",
             "$description": "24px"
+          },
+          "focus-visible": {
+            "background-color": {
+              "$type": "color",
+              "$value": "{nora.color.blue.300}"
+            },
+            "color": {
+              "$type": "color",
+              "$value": "{nora.color.blue.950}"
+            }
           }
         },
         "utilities-container": {
@@ -1967,7 +1969,13 @@
         "navigation-container": {
           "column-gap": {
             "$type": "spacing",
-            "$value": "{nora.space.block.rat}"
+            "$value": "{nora.space.column.rabbit}"
+          }
+        },
+        "navigation-items": {
+          "column-gap": {
+            "$type": "spacing",
+            "$value": "{nora.space.column.ant}"
           }
         },
         "search-field": {
