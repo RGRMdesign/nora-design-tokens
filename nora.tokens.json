@@ -271,7 +271,7 @@
           },
           "700": {
             "$type": "color",
-            "$value": "#00588D"
+            "$value": "#0066A4"
           },
           "800": {
             "$type": "color",
@@ -1473,7 +1473,7 @@
           "hover": {
             "background-color": {
               "$type": "color",
-              "$value": "{nora.color.gray.50}"
+              "$value": "{nora.color.blue.700}"
             },
             "border-color": {
               "$type": "color",
@@ -1481,7 +1481,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{nora.color.blue.900}"
+              "$value": "{nora.color.blue.50}"
             }
           },
           "disabled": {
@@ -1515,7 +1515,7 @@
           "active": {
             "background-color": {
               "$type": "color",
-              "$value": "{nora.color.blue.100}"
+              "$value": "{nora.color.blue.800}"
             },
             "border-color": {
               "$type": "color",
@@ -1523,7 +1523,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{nora.color.black}"
+              "$value": "{nora.color.blue.50}"
             }
           }
         }
@@ -1901,7 +1901,7 @@
           "hover": {
             "background-color": {
               "$type": "color",
-              "$value": "{nora.color.blue.300}"
+              "$value": "{nora.color.blue.400}"
             },
             "color": {
               "$type": "color",
@@ -1911,7 +1911,7 @@
           "active": {
             "background-color": {
               "$type": "color",
-              "$value": "{nora.color.blue.400}"
+              "$value": "{nora.color.blue.300}"
             },
             "color": {
               "$type": "color",
@@ -1925,6 +1925,37 @@
           "font-size": {
             "$type": "fontSizes",
             "$value": "{nora.typography.font-size.md}"
+          },
+          "padding-inline-start": {
+            "$type": "spacing",
+            "$value": "{nora.space.inline.termite}"
+          },
+          "padding-inline-end": {
+            "$type": "spacing",
+            "$value": "{nora.space.inline.termite}"
+          },
+          "padding-block-start": {
+            "$type": "spacing",
+            "$value": "{nora.space.block.ant}"
+          },
+          "padding-block-end": {
+            "$type": "spacing",
+            "$value": "{nora.space.block.ant}"
+          },
+          "focus": {
+            "background-color": {
+              "$type": "color",
+              "$value": "{nora.color.blue.400}"
+            },
+            "color": {
+              "$type": "color",
+              "$value": "{nora.color.blue.950}"
+            }
+          },
+          "line-height": {
+            "$type": "lineHeights",
+            "$value": "141.2%",
+            "$description": "24px"
           }
         },
         "utilities-container": {
