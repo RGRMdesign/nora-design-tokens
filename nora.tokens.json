@@ -873,7 +873,7 @@
         },
         "color": {
           "$type": "color",
-          "$value": "{nora.color.gray.900}"
+          "$value": "{nora.color.black}"
         }
       },
       "form-control": {
@@ -1242,6 +1242,12 @@
         "font-family": {
           "$type": "fontFamilies",
           "$value": "{nora.typography.font-family.code}"
+        }
+      },
+      "content": {
+        "max-width": {
+          "$type": "sizing",
+          "$value": "724px"
         }
       }
     }
