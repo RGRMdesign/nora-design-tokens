@@ -1821,7 +1821,7 @@
         },
         "padding-inline-end": {
           "$type": "spacing",
-          "$value": "{nora.space.inline.rat}"
+          "$value": "{nora.space.inline.mouse}"
         },
         "background-color": {
           "$type": "color",
@@ -1869,7 +1869,7 @@
         },
         "padding-inline-end": {
           "$type": "spacing",
-          "$value": "{nora.space.inline.rat}"
+          "$value": "{nora.space.inline.mouse}"
         },
         "background-color": {
           "$type": "color",
@@ -1917,6 +1917,10 @@
               "$type": "color",
               "$value": "{nora.color.blue.950}"
             }
+          },
+          "font-family": {
+            "$type": "fontFamilies",
+            "$value": "{nora.document.font-family}"
           },
           "font-size": {
             "$type": "fontSizes",
@@ -2020,7 +2024,7 @@
       }
     }
   },
-  "drafts/vw-test": {
+  "vw-test/vw-test": {
     "vw-test": {
       "font-family": {
         "$type": "fontFamilies",
@@ -2032,7 +2036,7 @@
       }
     }
   },
-  "vw-test--large": {
+  "vw-test/vw-test--large": {
     "vw-test": {
       "font-size": {
         "$type": "fontSizes",
@@ -2051,8 +2055,8 @@
       "components/heading",
       "drafts/breadcrumbs-tools-bar",
       "drafts/navigation-bar",
-      "drafts/vw-test",
-      "vw-test--large"
+      "vw-test/vw-test",
+      "vw-test/vw-test--large"
     ]
   }
 }
