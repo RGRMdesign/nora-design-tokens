@@ -309,6 +309,10 @@
             "$type": "spacing",
             "$value": "4px"
           },
+          "termite": {
+            "$type": "spacing",
+            "$value": "6px"
+          },
           "beetle": {
             "$type": "spacing",
             "$value": "8px"
@@ -354,6 +358,10 @@
           "ant": {
             "$type": "spacing",
             "$value": "4px"
+          },
+          "termite": {
+            "$type": "spacing",
+            "$value": "6px"
           },
           "beetle": {
             "$type": "spacing",
@@ -1243,11 +1251,11 @@
       "breadcrumb-nav": {
         "line-height": {
           "$type": "lineHeights",
-          "$value": "{nora.document.small-vw.line-height}"
+          "$value": "160%"
         },
         "font-size": {
           "$type": "fontSizes",
-          "$value": "{nora.document.small-vw.font-size}"
+          "$value": "{nora.typography.font-size.xs}"
         },
         "link": {
           "icon": {
@@ -1257,16 +1265,16 @@
             },
             "column-gap": {
               "$type": "spacing",
-              "$value": "{nora.space.text.beetle}"
+              "$value": "{nora.space.text.snail}"
             }
           },
           "padding-block-end": {
             "$type": "spacing",
-            "$value": "{nora.space.block.snail}"
+            "$value": "{nora.space.block.ant}"
           },
           "padding-block-start": {
             "$type": "spacing",
-            "$value": "{nora.space.block.snail}"
+            "$value": "{nora.space.block.ant}"
           },
           "padding-inline-end": {
             "$type": "spacing",
@@ -1278,7 +1286,7 @@
           },
           "color": {
             "$type": "color",
-            "$value": "{nora.interaction.color}"
+            "$value": "{nora.document.color}"
           },
           "active": {
             "color": {
@@ -1322,7 +1330,7 @@
           },
           "text-decoration": {
             "$type": "textDecoration",
-            "$value": "underline"
+            "$value": "none"
           }
         },
         "separator": {
@@ -1337,7 +1345,7 @@
         },
         "column-gap": {
           "$type": "spacing",
-          "$value": "{nora.space.column.snail}"
+          "$value": "{nora.space.column.beetle}"
         },
         "font-family": {
           "$type": "fontFamilies",
@@ -1348,112 +1356,6 @@
           "$value": "{nora.document.font-weight}"
         }
       }
-    },
-    "utrecht": {
-      "breadcrumb-nav": {
-        "line-height": {
-          "$type": "lineHeights",
-          "$value": "{nora.document.small-vw.line-height}"
-        },
-        "min-block-size": {
-          "$type": "sizing",
-          "$value": "{nora.pointer-target.min-size}"
-        },
-        "font-family": {
-          "$type": "fontFamilies",
-          "$value": "{nora.document.font-family}"
-        },
-        "item": {
-          "padding-block-start": {
-            "$type": "spacing",
-            "$value": "{nora.space.block.snail}"
-          },
-          "padding-block-end": {
-            "$type": "spacing",
-            "$value": "{nora.space.block.snail}"
-          },
-          "padding-inline-start": {
-            "$type": "spacing",
-            "$value": "{nora.space.inline.beetle}"
-          },
-          "padding-inline-end": {
-            "$type": "spacing",
-            "$value": "{nora.space.inline.beetle}"
-          }
-        },
-        "link": {
-          "color": {
-            "$type": "color",
-            "$value": "{nora.interaction.color}"
-          },
-          "focus": {
-            "background-color": {
-              "$type": "color",
-              "$value": "{nora.focus.background-color}"
-            },
-            "color": {
-              "$type": "color",
-              "$value": "{nora.focus.color}"
-            },
-            "text-decoration": {
-              "$type": "textDecoration",
-              "$value": "None"
-            }
-          },
-          "hover": {
-            "text-decoration": {
-              "$type": "textDecoration",
-              "$value": "None"
-            },
-            "color": {
-              "$type": "color",
-              "$value": "{nora.interaction.hover.color}"
-            }
-          },
-          "disabled": {
-            "color": {
-              "$type": "color",
-              "$value": "{nora.color.gray.500}"
-            }
-          },
-          "current": {
-            "font-weight": {
-              "$type": "fontWeights",
-              "$value": "{nora.document.font-weight}"
-            }
-          },
-          "text-decoration": {
-            "$type": "textDecoration",
-            "$value": "underline"
-          },
-          "active": {
-            "text-decoration": {
-              "$type": "textDecoration",
-              "$value": "None"
-            },
-            "color": {
-              "$type": "color",
-              "$value": "{nora.interaction.active.color}"
-            }
-          }
-        },
-        "separator": {
-          "color": {
-            "$type": "color",
-            "$value": "{nora.document.subtle.color}"
-          },
-          "icon": {
-            "size": {
-              "$type": "sizing",
-              "$value": "{nora.size.2xs}"
-            }
-          }
-        },
-        "font-size": {
-          "$type": "fontSizes",
-          "$value": "{nora.document.small-vw.font-size}"
-        }
-      }
     }
   },
   "components/icon-only-button": {
@@ -1461,19 +1363,19 @@
       "icon-only-button": {
         "padding-block-end": {
           "$type": "spacing",
-          "$value": "{nora.space.block.ant}"
+          "$value": "{nora.space.block.termite}"
         },
         "padding-block-start": {
           "$type": "spacing",
-          "$value": "{nora.space.block.ant}"
+          "$value": "{nora.space.block.termite}"
         },
         "padding-inline-end": {
           "$type": "spacing",
-          "$value": "{nora.space.inline.ant}"
+          "$value": "{nora.space.inline.termite}"
         },
         "padding-inline-start": {
           "$type": "spacing",
-          "$value": "{nora.space.inline.ant}"
+          "$value": "{nora.space.inline.termite}"
         },
         "border-radius": {
           "$type": "borderRadius",
@@ -1902,6 +1804,54 @@
       }
     }
   },
+  "drafts/breadcrumbs-tools-bar": {
+    "nora": {
+      "breadcrumbs-tools-bar": {
+        "padding-inline-start": {
+          "$type": "spacing",
+          "$value": "{nora.space.inline.rat}"
+        },
+        "padding-block-start": {
+          "$type": "spacing",
+          "$value": "{nora.space.block.snail}"
+        },
+        "padding-block-end": {
+          "$type": "spacing",
+          "$value": "{nora.space.block.snail}"
+        },
+        "padding-inline-end": {
+          "$type": "spacing",
+          "$value": "{nora.space.inline.rat}"
+        },
+        "background-color": {
+          "$type": "color",
+          "$value": "{nora.document.background-color}"
+        },
+        "tools-container": {
+          "tools": {
+            "column-gap": {
+              "$type": "dimension",
+              "$value": "0px"
+            }
+          },
+          "column-gap": {
+            "$type": "dimension",
+            "$value": "{nora.space.column.snail}"
+          }
+        },
+        "smart-comments-button": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{nora.color.gray.50}"
+          },
+          "border-radius": {
+            "$type": "borderRadius",
+            "$value": "{nora.border-radius.sm}"
+          }
+        }
+      }
+    }
+  },
   "drafts/navigation-bar": {
     "nora": {
       "navigation-bar": {
@@ -1976,7 +1926,7 @@
         "utilities-container": {
           "column-gap": {
             "$type": "spacing",
-            "$value": "{nora.space.block.rat}"
+            "$value": "{nora.space.column.mouse}"
           }
         },
         "navigation-container": {
@@ -2070,6 +2020,26 @@
       }
     }
   },
+  "drafts/vw-test": {
+    "vw-test": {
+      "font-family": {
+        "$type": "fontFamilies",
+        "$value": "{nora.document.font-family}"
+      },
+      "font-size": {
+        "$type": "fontSizes",
+        "$value": "16px"
+      }
+    }
+  },
+  "vw-test--large": {
+    "vw-test": {
+      "font-size": {
+        "$type": "fontSizes",
+        "$value": "24px"
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
@@ -2079,7 +2049,10 @@
       "components/icon-only-button",
       "components/paragraph",
       "components/heading",
-      "drafts/navigation-bar"
+      "drafts/breadcrumbs-tools-bar",
+      "drafts/navigation-bar",
+      "drafts/vw-test",
+      "vw-test--large"
     ]
   }
 }
