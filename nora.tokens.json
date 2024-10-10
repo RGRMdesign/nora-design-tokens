@@ -846,7 +846,7 @@
           },
           "color": {
             "$type": "color",
-            "$value": "{nora.color.blue.50}"
+            "$value": "{nora.color.white}"
           }
         },
         "subtle": {
@@ -1067,25 +1067,41 @@
         },
         "outline-color": {
           "$type": "color",
-          "$value": "{nora.color.purple.700}"
+          "$value": "{nora.color.blue.600}"
         },
         "inverse": {
           "outline-color": {
             "$type": "color",
             "$value": "{nora.color.white}"
+          },
+          "outline": {
+            "$type": "border",
+            "$value": {
+              "color": "{nora.focus.inverse.outline-color}",
+              "width": "{nora.focus.outline-width}",
+              "style": "{nora.focus.outline-style}"
+            }
           }
         },
         "outline-offset": {
           "$type": "other",
-          "$value": "0"
+          "$value": "2"
         },
         "outline-style": {
           "$type": "other",
-          "$value": "dotted"
+          "$value": "solid"
         },
         "outline-width": {
           "$type": "borderWidth",
           "$value": "{nora.border-width.md}"
+        },
+        "outline": {
+          "$type": "border",
+          "$value": {
+            "color": "{nora.focus.outline-color}",
+            "width": "{nora.focus.outline-width}",
+            "style": "{nora.focus.outline-style}"
+          }
         }
       },
       "pointer-target": {
@@ -1463,7 +1479,7 @@
           "$type": "borderWidth",
           "$value": "{nora.border-width.sm}"
         },
-        "inverted": {
+        "inverse": {
           "background-color": {
             "$type": "color",
             "$value": "transparent"
@@ -1487,7 +1503,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{nora.color.blue.50}"
+              "$value": "{nora.document.inverse.color}"
             }
           },
           "disabled": {
@@ -1501,10 +1517,10 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{nora.color.gray.500}"
+              "$value": "{nora.color.blue.200}"
             }
           },
-          "focus": {
+          "focus-visible": {
             "background-color": {
               "$type": "color",
               "$value": "{nora.focus.background-color}"
@@ -1529,7 +1545,35 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{nora.color.blue.50}"
+              "$value": "{nora.document.inverse.color}"
+            }
+          },
+          "current": {
+            "background-color": {
+              "$type": "color",
+              "$value": "{nora.color.blue.700}"
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "transparent"
+            },
+            "color": {
+              "$type": "color",
+              "$value": "{nora.document.inverse.color}"
+            }
+          },
+          "focus": {
+            "background-color": {
+              "$type": "color",
+              "$value": "{nora.color.blue.800}"
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "transparent"
+            },
+            "color": {
+              "$type": "color",
+              "$value": "{nora.document.inverse.color}"
             }
           }
         }
@@ -1903,7 +1947,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{nora.color.blue.50}"
+              "$value": "{nora.color.white}"
             }
           },
           "active": {
@@ -1913,7 +1957,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{nora.color.blue.50}"
+              "$value": "{nora.color.white}"
             }
           },
           "font-family": {
@@ -1958,11 +2002,11 @@
           "focus-visible": {
             "background-color": {
               "$type": "color",
-              "$value": "{nora.color.blue.300}"
+              "$value": "{nora.focus.background-color}"
             },
             "color": {
               "$type": "color",
-              "$value": "{nora.color.blue.950}"
+              "$value": "{nora.color.black}"
             }
           }
         },
@@ -1976,12 +2020,12 @@
           "column-gap": {
             "$type": "spacing",
             "$value": "{nora.space.column.rabbit}"
-          }
-        },
-        "navigation-items": {
-          "column-gap": {
-            "$type": "spacing",
-            "$value": "{nora.space.column.ant}"
+          },
+          "items": {
+            "column-gap": {
+              "$type": "spacing",
+              "$value": "{nora.space.column.ant}"
+            }
           }
         },
         "search-field": {
@@ -1991,7 +2035,7 @@
           },
           "color": {
             "$type": "color",
-            "$value": "{nora.color.white}"
+            "$value": "{nora.document.inverse.color}"
           },
           "font-family": {
             "$type": "fontFamilies",
@@ -2016,6 +2060,32 @@
           "border-bottom-left-radius": {
             "$type": "borderRadius",
             "$value": "{nora.border-radius.sm}"
+          },
+          "hover": {
+            "background-color": {
+              "$type": "color",
+              "$value": "{nora.color.blue.800}"
+            },
+            "color": {
+              "$type": "color",
+              "$value": "{nora.document.inverse.color}"
+            }
+          },
+          "focus": {
+            "background-color": {
+              "$type": "color",
+              "$value": "{nora.document.background-color}"
+            },
+            "color": {
+              "$type": "color",
+              "$value": "{nora.document.subtle.color}"
+            },
+            "value": {
+              "color": {
+                "$type": "color",
+                "$value": "{nora.document.color}"
+              }
+            }
           }
         },
         "search-form-button": {
@@ -2025,7 +2095,7 @@
           },
           "color": {
             "$type": "color",
-            "$value": "{nora.color.white}"
+            "$value": "{nora.document.inverse.color}"
           },
           "padding-inline-start": {
             "$type": "spacing",
@@ -2058,6 +2128,46 @@
           "border-bottom-left-radius": {
             "$type": "borderRadius",
             "$value": "0px"
+          },
+          "hover": {
+            "background-color": {
+              "$type": "color",
+              "$value": "{nora.color.blue.800}"
+            },
+            "color": {
+              "$type": "color",
+              "$value": "{nora.document.inverse.color}"
+            }
+          },
+          "active": {
+            "background-color": {
+              "$type": "color",
+              "$value": "{nora.color.blue.900}"
+            },
+            "color": {
+              "$type": "color",
+              "$value": "{nora.document.inverse.color}"
+            }
+          },
+          "focus": {
+            "background-color": {
+              "$type": "color",
+              "$value": "{nora.color.blue.800}"
+            },
+            "color": {
+              "$type": "color",
+              "$value": "{nora.document.inverse.color}"
+            }
+          },
+          "focus-visible": {
+            "background-color": {
+              "$type": "color",
+              "$value": "{nora.focus.background-color}"
+            },
+            "color": {
+              "$type": "color",
+              "$value": "{nora.color.black}"
+            }
           }
         },
         "search-form": {
