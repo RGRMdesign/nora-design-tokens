@@ -2080,6 +2080,49 @@
             }
           }
         },
+        "vertical-navigation-item": {
+          "color": {
+            "$type": "color",
+            "$value": "{nora.color.white}"
+          },
+          "font-size": {
+            "$type": "fontSizes",
+            "$value": "{nora.typography.font-size.lg}"
+          },
+          "line-height": {
+            "$type": "lineHeights",
+            "$value": "{nora.typography.line-height.sm}",
+            "$description": "24px"
+          },
+          "padding-inline-start": {
+            "$type": "spacing",
+            "$value": "0px"
+          },
+          "padding-inline-end": {
+            "$type": "spacing",
+            "$value": "0px"
+          },
+          "padding-block-start": {
+            "$type": "spacing",
+            "$value": "{nora.space.block.mouse}"
+          },
+          "padding-block-end": {
+            "$type": "spacing",
+            "$value": "{nora.space.block.mouse}"
+          },
+          "border": {
+            "$type": "border",
+            "$value": {
+              "color": "{nora.color.blue.400}",
+              "width": "1px",
+              "style": "solid"
+            }
+          },
+          "font-weight": {
+            "$type": "fontWeights",
+            "$value": "{nora.document.strong.font-weight}"
+          }
+        },
         "utilities-container": {
           "small-vw": {
             "column-gap": {
@@ -2356,6 +2399,28 @@
               "$type": "sizing",
               "$value": "{nora.size.3md}"
             }
+          }
+        },
+        "vertical-navigation-container": {
+          "box-shadow": {
+            "$type": "boxShadow",
+            "$value": "{nora.box-shadow.sm}"
+          },
+          "padding-inline-start": {
+            "$type": "spacing",
+            "$value": "{nora.space.inline.mouse}"
+          },
+          "padding-inline-end": {
+            "$type": "spacing",
+            "$value": "{nora.space.inline.mouse}"
+          },
+          "padding-block-start": {
+            "$type": "spacing",
+            "$value": "{nora.space.block.mouse}"
+          },
+          "padding-block-end": {
+            "$type": "spacing",
+            "$value": "{nora.space.block.mouse}"
           }
         }
       }
