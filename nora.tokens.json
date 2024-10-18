@@ -2316,16 +2316,16 @@
       }
     }
   },
-  "components/unordered-list": {
+  "components/ordered-list": {
     "utrecht": {
-      "unordered-list": {
+      "ordered-list": {
         "font-size": {
           "$type": "fontSizes",
           "$value": "{nora.document.large-vw.font-size}"
         },
         "line-height": {
           "$type": "lineHeights",
-          "$value": "{nora.document.line-height}"
+          "$value": "{nora.typography.line-height.md}"
         },
         "padding-inline-start": {
           "$type": "spacing",
@@ -2349,38 +2349,6 @@
           "color": {
             "$type": "color",
             "$value": "{nora.color.purple.300}"
-          }
-        }
-      }
-    }
-  },
-  "components/ordered-list": {
-    "utrecht": {
-      "ordered-list": {
-        "font-size": {
-          "$type": "fontSizes",
-          "$value": "{nora.document.font-size}"
-        },
-        "line-height": {
-          "$type": "lineHeights",
-          "$value": "{nora.document.line-height}"
-        },
-        "padding-inline-start": {
-          "$type": "spacing",
-          "$value": "{nora.space.inline.rabbit}"
-        },
-        "item": {
-          "padding-inline-start": {
-            "$type": "spacing",
-            "$value": "{nora.space.inline.beetle}"
-          },
-          "margin-block-end": {
-            "$type": "spacing",
-            "$value": "{nora.space.block.ant}"
-          },
-          "margin-block-start": {
-            "$type": "spacing",
-            "$value": "{nora.space.block.ant}"
           }
         }
       }
@@ -2451,6 +2419,44 @@
           "line-height": {
             "$type": "lineHeights",
             "$value": "{nora.document.line-height}"
+          }
+        }
+      }
+    }
+  },
+  "components/unordered-list": {
+    "utrecht": {
+      "unordered-list": {
+        "font-size": {
+          "$type": "fontSizes",
+          "$value": "{nora.document.large-vw.font-size}"
+        },
+        "line-height": {
+          "$type": "lineHeights",
+          "$value": "{nora.typography.line-height.md}"
+        },
+        "padding-inline-start": {
+          "$type": "spacing",
+          "$value": "{nora.space.inline.rabbit}"
+        },
+        "item": {
+          "padding-inline-start": {
+            "$type": "spacing",
+            "$value": "{nora.space.inline.frog}"
+          },
+          "margin-block-end": {
+            "$type": "spacing",
+            "$value": "{nora.space.block.ant}"
+          },
+          "margin-block-start": {
+            "$type": "spacing",
+            "$value": "{nora.space.block.ant}"
+          }
+        },
+        "marker": {
+          "color": {
+            "$type": "color",
+            "$value": "{nora.color.purple.300}"
           }
         }
       }
@@ -2657,9 +2663,9 @@
       "components/icon-only-button",
       "components/heading",
       "components/navigation-bar",
-      "components/unordered-list",
       "components/ordered-list",
       "components/paragraph",
+      "components/unordered-list",
       "drafts/breadcrumbs-tools-bar",
       "drafts/link-overview",
       "vw-test/vw-test",
