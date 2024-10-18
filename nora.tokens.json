@@ -847,7 +847,7 @@
         },
         "color": {
           "$type": "color",
-          "$value": "{nora.color.black}"
+          "$value": "{nora.color.blue.950}"
         },
         "font-family": {
           "$type": "fontFamilies",
@@ -857,20 +857,16 @@
           "font-size": {
             "$type": "fontSizes",
             "$value": "{nora.typography.font-size.md}"
-          },
-          "line-height": {
-            "$type": "lineHeights",
-            "$value": "{nora.typography.line-height.lg}"
           }
+        },
+        "line-height": {
+          "$type": "lineHeights",
+          "$value": "{nora.typography.line-height.lg}"
         },
         "large-vw": {
           "font-size": {
             "$type": "fontSizes",
             "$value": "{nora.typography.font-size.lg}"
-          },
-          "line-height": {
-            "$type": "lineHeights",
-            "$value": "{nora.typography.line-height.lg}"
           }
         },
         "font-weight": {
@@ -1944,11 +1940,11 @@
           },
           "padding-block-start": {
             "$type": "spacing",
-            "$value": "{nora.space.block.ant}"
+            "$value": "{nora.space.block.termite}"
           },
           "padding-block-end": {
             "$type": "spacing",
-            "$value": "{nora.space.block.ant}"
+            "$value": "{nora.space.block.termite}"
           },
           "focus": {
             "background-color": {
@@ -1962,8 +1958,7 @@
           },
           "line-height": {
             "$type": "lineHeights",
-            "$value": "141.2%",
-            "$description": "->24px"
+            "$value": "{nora.typography.line-height.md}"
           },
           "focus-visible": {
             "background-color": {
@@ -2321,6 +2316,44 @@
       }
     }
   },
+  "components/unordered-list": {
+    "utrecht": {
+      "unordered-list": {
+        "font-size": {
+          "$type": "fontSizes",
+          "$value": "{nora.document.large-vw.font-size}"
+        },
+        "line-height": {
+          "$type": "lineHeights",
+          "$value": "{nora.document.line-height}"
+        },
+        "padding-inline-start": {
+          "$type": "spacing",
+          "$value": "{nora.space.inline.rabbit}"
+        },
+        "item": {
+          "padding-inline-start": {
+            "$type": "spacing",
+            "$value": "{nora.space.inline.frog}"
+          },
+          "margin-block-end": {
+            "$type": "spacing",
+            "$value": "{nora.space.block.ant}"
+          },
+          "margin-block-start": {
+            "$type": "spacing",
+            "$value": "{nora.space.block.ant}"
+          }
+        },
+        "marker": {
+          "color": {
+            "$type": "color",
+            "$value": "{nora.color.purple.300}"
+          }
+        }
+      }
+    }
+  },
   "components/paragraph": {
     "utrecht": {
       "paragraph": {
@@ -2336,28 +2369,16 @@
           "font-size": {
             "$type": "fontSizes",
             "$value": "{nora.document.small-vw.font-size}"
-          },
-          "line-height": {
-            "$type": "lineHeights",
-            "$value": "{nora.document.small-vw.line-height}"
-          },
-          "paragraph-spacing": {
-            "$type": "paragraphSpacing",
-            "$value": "{nora.space.relation.besties}"
           }
+        },
+        "line-height": {
+          "$type": "lineHeights",
+          "$value": "{nora.document.line-height}"
         },
         "large-vw": {
           "font-size": {
             "$type": "fontSizes",
             "$value": "{nora.document.large-vw.font-size}"
-          },
-          "line-height": {
-            "$type": "lineHeights",
-            "$value": "{nora.document.large-vw.line-height}"
-          },
-          "paragraph-spacing": {
-            "$type": "paragraphSpacing",
-            "$value": "{nora.space.relation.vrienden}"
           }
         },
         "font-weight": {
@@ -2379,7 +2400,7 @@
           },
           "line-height": {
             "$type": "lineHeights",
-            "$value": "{nora.document.small-vw.line-height}"
+            "$value": "{nora.document.line-height}"
           }
         },
         "small": {
@@ -2397,7 +2418,7 @@
           },
           "line-height": {
             "$type": "lineHeights",
-            "$value": "{nora.document.small-vw.line-height}"
+            "$value": "{nora.document.line-height}"
           }
         }
       }
@@ -2604,6 +2625,7 @@
       "components/icon-only-button",
       "components/heading",
       "components/navigation-bar",
+      "components/unordered-list",
       "components/paragraph",
       "drafts/breadcrumbs-tools-bar",
       "drafts/link-overview",
