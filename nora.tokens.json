@@ -2354,6 +2354,38 @@
       }
     }
   },
+  "components/ordered-list": {
+    "utrecht": {
+      "ordered-list": {
+        "margin-block-start": {
+          "$type": "other",
+          "$value": "0"
+        },
+        "margin-block-end": {
+          "$type": "other",
+          "$value": "1em"
+        },
+        "padding-inline-start": {
+          "$type": "other",
+          "$value": "28.8px"
+        },
+        "item": {
+          "margin-block-start": {
+            "$type": "other",
+            "$value": "0.25em"
+          },
+          "margin-block-end": {
+            "$type": "other",
+            "$value": "0.25em"
+          },
+          "padding-inline-start": {
+            "$type": "other",
+            "$value": "0"
+          }
+        }
+      }
+    }
+  },
   "components/paragraph": {
     "utrecht": {
       "paragraph": {
@@ -2626,6 +2658,7 @@
       "components/heading",
       "components/navigation-bar",
       "components/unordered-list",
+      "components/ordered-list",
       "components/paragraph",
       "drafts/breadcrumbs-tools-bar",
       "drafts/link-overview",
