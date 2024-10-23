@@ -1069,6 +1069,10 @@
           "$type": "sizing",
           "$value": "45.25rem"
         }
+      },
+      "no-text-decoration": {
+        "$type": "textDecoration",
+        "$value": "none"
       }
     }
   },
@@ -1121,7 +1125,7 @@
             },
             "text-decoration": {
               "$type": "textDecoration",
-              "$value": "None"
+              "$value": "{nora.no-text-decoration}"
             }
           },
           "focus": {
@@ -1135,7 +1139,7 @@
             },
             "text-decoration": {
               "$type": "textDecoration",
-              "$value": "None"
+              "$value": "{nora.no-text-decoration}"
             }
           },
           "hover": {
@@ -1145,7 +1149,7 @@
             },
             "text-decoration": {
               "$type": "textDecoration",
-              "$value": "None"
+              "$value": "{nora.no-text-decoration}"
             }
           },
           "current": {
@@ -1156,7 +1160,7 @@
           },
           "text-decoration": {
             "$type": "textDecoration",
-            "$value": "none"
+            "$value": "{nora.no-text-decoration}"
           }
         },
         "separator": {
